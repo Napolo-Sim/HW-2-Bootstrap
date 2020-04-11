@@ -2,11 +2,19 @@ a {
     font-size: large;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    margin-top: auto;
 }
 
 footer h2 {
